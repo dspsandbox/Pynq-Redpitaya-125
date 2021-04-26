@@ -1,9 +1,9 @@
 import re
 ####################################################
-fileIn = "systemZ10.tcl" 
-fileOut = "redpitaya-125/1.0/preset.xml"
-lineStart = 306 #first line to parse
-lineStop = 726  #last line to parse
+fileIn = "tcl/base_bd.tcl" 
+fileOut = "../redpitaya-125-14/1.0/preset.xml"
+lineStart = 210 #first line to parse
+lineStop = 616  #last line to parse
 ####################################################
 
 #Prepare file pointers
