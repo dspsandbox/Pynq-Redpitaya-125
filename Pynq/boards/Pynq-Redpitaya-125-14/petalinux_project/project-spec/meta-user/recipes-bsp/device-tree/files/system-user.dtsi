@@ -1,6 +1,6 @@
 /include/ "system-conf.dtsi"
 / {	
-	compatible =  "xlnx,zynq-7000";
+	compatible = "xlnx,zynq-7000";
 	
 	usb_phy0: phy0@e0002000 {
 		compatible = "ulpi-phy";
