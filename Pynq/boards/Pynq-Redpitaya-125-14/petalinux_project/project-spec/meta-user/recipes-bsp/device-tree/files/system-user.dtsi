@@ -1,0 +1,25 @@
+/include/ "system-conf.dtsi"
+/ {	
+	model = "redpitaya 125-14 development board";
+	compatible =  "redpitaya,125-14", "xlnx,zynq-7000";
+	
+	usb_phy0: phy0@e0002000 {
+		compatible = "ulpi-phy";
+		#phy-cells = <0>;
+		reg = <0xe0002000 0x1000>;
+		view-port = <0x0170>;
+		drv-vbus;
+	};
+};
+
+&usb0 {
+	dr_mode = "host";
+	usb-phy = <&usb_phy0>;
+};
+
+&gem0 {
+	phy-handle = <&ethernet_0_mdio>;
+	ethernet_0_mdio: ethernet_0_mdio@1 {
+		reg = <1>;
+	};
+};
