@@ -1,7 +1,6 @@
 /include/ "system-conf.dtsi"
 / {	
-	model = "redpitaya 125-14 development board";
-	compatible =  "redpitaya,125-14", "xlnx,zynq-7000";
+	compatible =  "xlnx,zynq-7000";
 	
 	usb_phy0: phy0@e0002000 {
 		compatible = "ulpi-phy";
