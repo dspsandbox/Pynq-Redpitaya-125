@@ -1,10 +1,10 @@
 # PYNQ for Redpitaya-125-14
 
-This repository describes the generation of a PYNQ image for the Redpitaya STEMlab 125-14 board. The device tree has been simplified and the supported external interfaces are:
-
-* Ethernet
-* USB
-* UART
+This repository describes the generation of a PYNQ image for the Redpitaya STEMlab 125-14 board. The device tree has been simplified and the supported MIO peripherals are:
+* SD 0
+* UART 0
+* ENET 0
+* USB 0
 
 
 ## Ready-to-use downloads, links and base design
