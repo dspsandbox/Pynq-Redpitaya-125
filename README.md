@@ -7,7 +7,7 @@ This repository describes the generation of a PYNQ image for the Redpitaya STEMl
 * UART
 
 
-## Ready-to-use downloads & links
+## Ready-to-use downloads, links and base design
 
 * [Pynq-Redpitaya-125-14-2.6.0.img](https://drive.google.com/file/d/1YY4HYoDWa3E1ZVyxrV7naTFVoDieKrwm/view?usp=sharing)
 * [Instructions on writing the SD card image](https://pynq.readthedocs.io/en/v2.6.1/appendix.html#writing-the-sd-card-image)
@@ -15,7 +15,7 @@ This repository describes the generation of a PYNQ image for the Redpitaya STEMl
 * Base design:
 <img src="/Doc/base_bd.png"/>
 
-* Running led example:
+* Controlling the base design from a PYNQ Jupyer Notebook:
 
 ```python
 import time
