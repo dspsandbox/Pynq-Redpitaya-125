@@ -1,6 +1,6 @@
 # PYNQ for Redpitaya-125-14
 
-This repository describes the generation of a PYNQ image for the Redpitaya STEMlab 125-14 board, with the intend to provide a simple FPGA development environment for this open-source DPS platform. 
+This repository describes the generation of a PYNQ image for the Redpitaya STEMlab 125-14 board, with the intend to provide a simple FPGA development environment for this open-source DSP platform. 
 The device tree has been simplified and the supported external interfaces are:
 
 * Ethernet
@@ -25,10 +25,10 @@ ol = pynq.Overlay("base.bit")
 
 for i in range(8):
     ol.led_ctrl.channel1.write(val=(1<<i), mask=0xff)
-    time.sleep(0.25)
+    time.sleep(0.5)
 ```
 <img src="/Doc/running_led.gif"/>
 
 
-## Build process
+## Build process (in progress...)
 ### Get the environment ready
