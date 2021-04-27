@@ -1,7 +1,6 @@
 # PYNQ for Redpitaya-125-14
 
-This repository describes the generation of a PYNQ image for the Redpitaya STEMlab 125-14 board, with the intend to provide a simple FPGA development environment for this open-source DSP platform. 
-The device tree has been simplified and the supported external interfaces are:
+This repository describes the generation of a PYNQ image for the Redpitaya STEMlab 125-14 board. The device tree has been simplified and the supported external interfaces are:
 
 * Ethernet
 * USB
