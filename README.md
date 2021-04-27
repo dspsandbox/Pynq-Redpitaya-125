@@ -29,5 +29,6 @@ for i in range(8):
 <img src="/Doc/running_led.gif"/>
 
 
-## Build process (in progress...)
+## Build process 
 ### Get the environment ready
+In progress...
