@@ -14,7 +14,7 @@ This repository describes the generation of a PYNQ image for the Redpitaya STEMl
 * [Getting started with PYNQ](https://pynq.readthedocs.io/en/v2.0/getting_started.html)
 * [Vivado Redpitaya-125-14 board files](https://github.com/dspsandbox/Pynq-Redpitaya-125/tree/master/Vivado/board_files)
 * [Redpitaya constraint file (.xdc)](https://github.com/RedPitaya/RedPitaya/blob/master/fpga/sdc/red_pitaya.xdc)
-* Base design:
+* Base design (the corresponding overlay is included within the build image):
 <img src="/Doc/base_bd.png"/>
 
 * Controlling the base design from a PYNQ Jupyer Notebook:
