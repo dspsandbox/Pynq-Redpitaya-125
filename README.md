@@ -73,7 +73,7 @@ petalinux-config --silentconfig -p $$(PL_PROJ_$1)
 # ...
 ```
 
-### Build Pynq 
+### Build PYNQ 
 * Open a terminal and run the settings files for Vitis and Petalinux:
 ```bash
 source <path-to-vitis>/Vitis/2020.1/settings64.sh
