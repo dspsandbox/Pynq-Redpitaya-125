@@ -53,7 +53,7 @@ source <PYNQ repository>/sdbuild/scripts/setup_host.sh
 * Download the prebuilt board-agnostic (PYNQ rootfs arm v2.6) image from [Pynq Development Boards ](http://www.pynq.io/board.html/) and unzip it.
 * Download the PYNQ distribution tarball (Pynq-2.6.0.tar.gz) from the [PYNQ release repository](https://github.com/Xilinx/PYNQ/releases). You will find the distribution tarball within the *WFH Release* section under a drop-down called *Assets*.
 
-### Prepare PYNQ build
+### Prepare build
 * Clone this repository:
 ```bash
 git clone https://github.com/dspsandbox/Pynq-Redpitaya-125
