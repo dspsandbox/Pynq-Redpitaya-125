@@ -61,8 +61,8 @@ git clone https://github.com/dspsandbox/Pynq-Redpitaya-125
 * Copy the provided board directory *\<this repository\>/Pynq/boards/Pynq-Redpitaya-125-14* to *\<PYNQ repository\>/boards*. 
 
 * Modify the FPGA makefile under *\<PYNQ repository\>/sdbuild/Makefile*:
-   * Locate the on line 162 the command *petalinux-config --silentconfig -p $$(PL_PROJ_$1)*.
-   * Add above it a command to copy the *petalinux_project* located in our board directory. This will include our device tree (*system-user.dtsi*) into the PYNQ build process. The modified makfile should read:
+   * Locate on line 162 the command *petalinux-config --silentconfig -p $$(PL_PROJ_$1)*.
+   * Add above it a command to copy the *petalinux_project* located in our board directory. This will include our device tree (*system-user.dtsi*) into the PYNQ build process. The modified makfile reads:
 ```bash
 # ...
 echo 'CONFIG_zocl=y' >> $$(PL_ROOTFS_CONFIG_$1)
