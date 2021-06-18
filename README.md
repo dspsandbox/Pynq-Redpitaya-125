@@ -1,5 +1,11 @@
 # PYNQ for Redpitaya-125-14
 
+
+---
+
+ℹ️ For a tutorial on FPGA programming with Redpitaya-125-14 and PYNQ see [FPGA Notes for Scientists](https://github.com/dspsandbox/FPGA-Notes-for-Scientists).
+
+---
 This repository describes the generation of a PYNQ image for the Redpitaya STEMlab 125-14 board. The device tree has been simplified and the supported MIO peripherals are:
 * SD 0
 * UART 0
