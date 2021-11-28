@@ -97,7 +97,7 @@ sudo echo hello
 ```
 * Run the makefile
 ```bash
-make PREBUILT=<absolute path to unzipped board-agnostic perbuilt image (.img)> PYNQ_DIST=<absolute path to PYNQ tarball (.tar.gz)> BOARDS=Pynq-Redpitaya-125-14
+make PREBUILT=<absolute path to unzipped board-agnostic perbuilt image (.img)> PYNQ_SDIST=<absolute path to PYNQ tarball (.tar.gz)> BOARDS=Pynq-Redpitaya-125-14
 ```
 * The generated PYNQ image will be located within *\<PYNQ repository\>/sdbuild/output/Pynq-Redpitaya-125-14-2.6.0.img*
 
