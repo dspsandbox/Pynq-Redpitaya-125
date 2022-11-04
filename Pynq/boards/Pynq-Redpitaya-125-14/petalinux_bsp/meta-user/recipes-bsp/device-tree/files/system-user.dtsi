@@ -1,0 +1,32 @@
+/include/ "system-conf.dtsi"
+/ {
+	compatible = "xlnx,zynq-7000";
+
+	chosen {
+		xlnx,eeprom = &eeprom;
+	};
+
+	usb_phy0: phy0 {
+		#phy-cells = <0>;
+		compatible = "usb-nop-xceiv";
+	};
+};
+
+
+&i2c0 {
+	status = "okay";
+	clock-frequency = <400000>;
+
+	eeprom: eeprom@50 {
+		compatible = "atmel,24c64";
+		size = <8192>;
+		pagesize = <32>;
+		reg = <0x50>;
+	};
+};
+
+&usb0 {	
+	status = "okay";
+	dr_mode = "host";
+	usb-phy = <&usb_phy0>;
+};
