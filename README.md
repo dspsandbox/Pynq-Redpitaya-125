@@ -67,6 +67,11 @@ git clone https://github.com/dspsandbox/Pynq-Redpitaya-125
 ```
 * Copy the provided board directory *\<this repository\>/Pynq/boards/Pynq-Redpitaya-125-14* to *\<PYNQ repository\>/boards*. 
 
+* (**OPTIONAL**) Enable Wireguard VPN kernel driver. Open *PYNQ/sdbuild/boot/meta-pynq/recipes-kernel/linux/linux-xlnx/pynq.cfg* and append:
+```bash
+CONFIG_WIREGUARD=y
+```
+
 
 ### Build PYNQ 
 * Open a terminal and run the settings files for Vitis and Petalinux:
