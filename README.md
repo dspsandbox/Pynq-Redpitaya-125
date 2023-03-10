@@ -15,7 +15,7 @@ This repository describes the generation of a PYNQ image for the Redpitaya STEMl
 
 ## Ready-to-use downloads, links and base design
 
-* [Pynq-Redpitaya-125-14-3.0.1.img](https://drive.google.com/file/d/129EsJnPIXDf8AoeYgjwcfgi8bE3UVRis/view?usp=sharing)
+* [Pynq-Redpitaya-125-14-3.0.1.img](https://drive.google.com/file/d/1yZ7dBUzU9IY8ECg2v9Jc2SXsewsgbF-1/view?usp=sharing)
 * [Instructions on writing the SD card image](https://pynq.readthedocs.io/en/v2.6.1/appendix.html#writing-the-sd-card-image)
 * [Getting started with PYNQ](https://pynq.readthedocs.io/en/v2.0/getting_started.html)
 * [Vivado Redpitaya-125-14 board files](https://github.com/dspsandbox/Pynq-Redpitaya-125/tree/master/Vivado/board_files)
