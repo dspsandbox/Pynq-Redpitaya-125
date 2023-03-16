@@ -31,7 +31,7 @@ import pynq
 ol = pynq.Overlay("base.bit")
 
 for i in range(8):
-    ol.led_ctrl.channel1.write(val=(1<<i), mask=0xff)
+    ol.axi_gpio_0.channel1.write(val=(1<<i), mask=0xff)
     time.sleep(0.5)
 ```
 <img src="/Doc/running_led.gif" width="400"/>
